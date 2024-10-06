@@ -1,0 +1,76 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <style>
+      nav {
+        font-size: 20px;
+        background-color: aqua;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content:space-around;
+      }
+      nav ul li {
+        cursor: pointer;
+        padding: 10px;
+        flex: auto;
+        text-align: center;
+      }
+      nav ul li:hover {
+        background-color: violet;
+        color: yellow;
+      }
+      @media all and (max-width: 600px) {
+        nav ul {
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+        }
+        nav ul li {
+          text-align: center;
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>service</li>
+        <li>contact</li>
+      </ul>
+    </nav>
+  </body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>LOGIN</legend>
+            <center>
+            <label>Mobile Number:</label>
+            <input type=" tel" name="mobile" id="mobile" pattern="[0-9]{10}"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"><br><br>
+         <button type="submit" formaction="./day7homepage.html">Login</button>
+        
+        <button type="submit" formaction="./day7signup.html">signup</button></center>
+         <button type="submit" formaction="./day7forgetpassword.html">Forget password</button>
+        </fieldset>
+    </form>
+</body>
+</html>
